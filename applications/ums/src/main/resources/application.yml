@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ums
+server:
+  port: 8080
+billingEndpoint: http://localhost:8081
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
